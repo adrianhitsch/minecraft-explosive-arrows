@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "explosivearrows:small_explosive_arrow",
+    "explosivearrows:explosive_arrow",
+    "explosivearrows:god_arrow",
+    "explosivearrows:do_not_use_arrow"
+  ]
+}

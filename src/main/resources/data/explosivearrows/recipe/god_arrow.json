@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": ["minecraft:arrow", "minecraft:nether_star", "minecraft:tnt"],
+  "result": {
+    "count": 1,
+    "id": "explosivearrows:god_arrow"
+  }
+}

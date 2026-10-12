@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "explosivearrows",
+	"version": "${version}",
+	"name": "Explosive Arrows",
+	"description": "Four explosive arrows for the vanilla bow – from a small bang to the end of the world.",
+	"license": "CC0-1.0",
+	"icon": "assets/explosivearrows/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"explosivearrows.ExplosiveArrows"
+		],
+		"client": [
+			"explosivearrows.client.ExplosiveArrowsClient"
+		]
+	},
+	"mixins": [
+		"explosivearrows.mixins.json",
+		{
+			"config": "explosivearrows.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

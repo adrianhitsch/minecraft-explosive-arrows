@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "explosivearrows:item/small_explosive_arrow",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -29696
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": ["minecraft:arrow", "minecraft:gunpowder"],
+  "result": {
+    "count": 1,
+    "id": "explosivearrows:small_explosive_arrow"
+  }
+}
