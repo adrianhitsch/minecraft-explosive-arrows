@@ -2,7 +2,11 @@
 	"required": true,
 	"package": "explosivearrows.client.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"client": [],
+	"client": [
+		"AbstractClientPlayerMixin",
+		"AvatarRendererMixin",
+		"HudMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},

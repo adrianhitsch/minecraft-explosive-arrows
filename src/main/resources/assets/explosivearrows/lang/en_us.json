@@ -3,5 +3,12 @@
   "item.explosivearrows.explosive_arrow": "Explosive Arrow",
   "item.explosivearrows.god_arrow": "Projectile of God",
   "item.explosivearrows.do_not_use_arrow": "Do Not Use!",
-  "entity.explosivearrows.explosive_arrow": "Explosive Arrow"
+  "entity.explosivearrows.explosive_arrow": "Explosive Arrow",
+  "item.explosivearrows.cbu87": "CBU-87 Cluster Bomb",
+  "entity.explosivearrows.cbu87": "CBU-87 Cluster Bomb",
+  "entity.explosivearrows.placed_cbu87": "CBU-87 Cluster Bomb",
+  "entity.explosivearrows.blu97": "BLU-97 Bomblet",
+  "item.explosivearrows.cbu87_launcher": "CBU-87 Launcher",
+  "key.explosivearrows.reload_launcher": "Reload CBU-87 Launcher",
+  "message.explosivearrows.no_cbu87": "No CBU-87 in your inventory"
 }

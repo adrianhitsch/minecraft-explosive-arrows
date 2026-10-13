@@ -14,9 +14,11 @@ public class ExplosiveArrows implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModComponents.init();
 		ModEntities.init();
 		ModItems.init();
 		DelayedActions.register();
+		LauncherPayloads.register();
 		LOGGER.info("Explosive Arrows geladen");
 	}
 

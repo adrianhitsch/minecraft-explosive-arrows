@@ -6,7 +6,8 @@
 	"environment": "*",
 	"entrypoints": {
 		"fabric-gametest": [
-			"explosivearrows.test.ExplosiveArrowsGameTest"
+			"explosivearrows.test.ExplosiveArrowsGameTest",
+			"explosivearrows.test.ClusterBombGameTest"
 		]
 	},
 	"depends": {

@@ -2,7 +2,9 @@
 	"required": true,
 	"package": "explosivearrows.mixin",
 	"compatibilityLevel": "JAVA_25",
-	"mixins": [],
+	"mixins": [
+		"PlayerMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},

@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "explosivearrows:item/cbu87",
+    "model": {
+      "type": "explosivearrows:cbu87"
+    }
+  }
+}

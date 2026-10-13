@@ -3,5 +3,12 @@
   "item.explosivearrows.explosive_arrow": "Sprengpfeil",
   "item.explosivearrows.god_arrow": "Geschoss Gottes",
   "item.explosivearrows.do_not_use_arrow": "Nicht benutzen!",
-  "entity.explosivearrows.explosive_arrow": "Sprengpfeil"
+  "entity.explosivearrows.explosive_arrow": "Sprengpfeil",
+  "item.explosivearrows.cbu87": "CBU-87 Streubombe",
+  "entity.explosivearrows.cbu87": "CBU-87 Streubombe",
+  "entity.explosivearrows.placed_cbu87": "CBU-87 Streubombe",
+  "entity.explosivearrows.blu97": "BLU-97 Submunition",
+  "item.explosivearrows.cbu87_launcher": "CBU-87-Werfer",
+  "key.explosivearrows.reload_launcher": "CBU-87-Werfer nachladen",
+  "message.explosivearrows.no_cbu87": "Keine CBU-87 im Inventar"
 }

@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "explosivearrows:item/cbu87_launcher",
+    "model": {
+      "type": "explosivearrows:cbu87_launcher"
+    }
+  }
+}

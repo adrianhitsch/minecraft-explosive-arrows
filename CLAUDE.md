@@ -46,3 +46,18 @@ The Minecraft APIs have changed a lot; don't rely on knowledge of older versions
 - `ExplosiveArrowType`: power and fire per arrow; `ModItems`/`ModEntities`: registration.
 - `ExplosiveArrowEntity`: impact logic; `GodStrike` and `DoomStrike`: follow-up effects of the big arrows.
 - `DelayedActions`: tick scheduler for delayed explosions and the countdown.
+- CBU-87: `ClusterBombItem` (drop/place/dispenser), `ClusterBombEntity` (falling, opens), `BombletEntity`
+  (incl. duds), `PlacedClusterBombEntity` (inert display), `ClusterBombLauncherItem` (fires bombs with
+  `launched = true` → rocket motor + proximity fuze instead of the altitude fuze). Client mixin `AvatarRendererMixin`
+  gives the launcher the crossbow-hold arm pose. Rotation convention of these entities: `yRot = atan2(x, z)`,
+  `xRot` positive = nose up (not the mob convention).
+- Launcher controls: right click = item use with `SPYGLASS` animation; `PlayerMixin` makes `isScoping()` true for it,
+  `AbstractClientPlayerMixin` (zoom) and `HudMixin` (reticle) adjust the spyglass behaviour. Left click
+  (`ClientPreAttackCallback`) and the reload key send `LauncherPayloads` to the server. State lives in item
+  components (`ModComponents`: loaded, reload start time); `LauncherSpecialRenderer` animates the reload from them.
+  Reload completion is scheduled with `DelayedActions`. The reticle's hold-over marks are computed in
+  `scripts/generate-textures.py` from the bomb ballistics (keep its constants in sync).
+- Round models: `client/Mesh` (lathe/plate/box mesh drawn via `submitCustomGeometry`), geometry in
+  `client/CbuModels`. The item uses a `minecraft:special` model registered via `SpecialModelRenderers.ID_MAPPER`
+  (Fabric API has no registry for it). Texture layout must match `scripts/generate-textures.py`
+  (pure Python, no dependencies; re-run after changing it).

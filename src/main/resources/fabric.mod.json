@@ -3,7 +3,7 @@
 	"id": "explosivearrows",
 	"version": "${version}",
 	"name": "Explosive Arrows",
-	"description": "Four explosive arrows for the vanilla bow – from a small bang to the end of the world.",
+	"description": "Four explosive arrows for the vanilla bow – from a small bang to the end of the world – and a CBU-87 cluster bomb.",
 	"license": "CC0-1.0",
 	"icon": "assets/explosivearrows/icon.png",
 	"environment": "*",
